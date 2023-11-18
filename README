@@ -1,0 +1,11 @@
+useless
+=======
+useless stuff like cd(1) as program.
+
+Compiling
+---------
+Just classical Makefile.. Compile with 'make' and install with 'make install'.
+
+Copying
+-------
+Licensed under MIT. See file COPYING.
