@@ -1,10 +1,9 @@
 .POSIX:
 
 CC = cc
+LDFLAGS = -lsdie
 
 BIN = cd
-
-LIBS = -lsdie $(LDLIBS)
 
 all: $(BIN)
 
@@ -13,4 +12,4 @@ clean:
 
 .SUFFIXES: .c
 .c:
-	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -o $@ $< $(LIBS)
+	$(CC) $(CFLAGS) -o $@ $< $(LDFLAGS)
